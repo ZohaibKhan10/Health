@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Helmet } from 'react-helmet-async';
@@ -14,7 +13,7 @@ const DocumentReader = () => {
   return (
     <>
       <Helmet>
-        <title>Document Reader | SereniFlow</title>
+        <title>Document Reader | Serene Flow</title>
       </Helmet>
       <div className="container mx-auto p-4 animate-fade-in">
         <h1 className="text-3xl font-serif mb-6">Document Reader</h1>

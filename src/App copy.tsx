@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -58,7 +59,7 @@ const App = () => {
       <TooltipProvider>
         <HelmetProvider>
           <Helmet>
-            <title>Serene Flow</title>
+            <title>SereniFlow</title>
           </Helmet>
           <BrowserRouter>
             <Toaster />

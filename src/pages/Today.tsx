@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -46,7 +45,7 @@ const Today = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
-          Welcome to SereniFlow
+          Welcome to Serene Flow
         </span>
         <motion.span 
           className="inline-block ml-2"

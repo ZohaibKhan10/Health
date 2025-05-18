@@ -34,7 +34,7 @@ const Login = () => {
       
       toast({
         title: "Login successful",
-        description: "Welcome back to SereniFlow!",
+        description: "Welcome back to Serene Flow!",
       });
       
       setIsLoading(false);
@@ -57,7 +57,7 @@ const Login = () => {
       
       toast({
         title: "Registration successful",
-        description: "Welcome to SereniFlow! Your wellness journey begins now.",
+        description: "Welcome to Serene Flow! Your wellness journey begins now.",
       });
       
       setIsLoading(false);
@@ -99,7 +99,7 @@ const Login = () => {
               <Heart className="text-white h-8 w-8 drop-shadow-lg" />
             </motion.div>
             <h1 className="text-3xl font-serif font-medium bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent drop-shadow-lg">
-              SereniFlow
+              Serene Flow
             </h1>
           </div>
           <p className="text-white/90 text-center drop-shadow-md">
@@ -209,7 +209,7 @@ const Login = () => {
             </CardContent>
             <CardFooter className="flex flex-col space-y-4">
               <div className="text-xs text-center text-muted-foreground">
-                By continuing, you agree to SereniFlow's Terms of Service and Privacy Policy.
+                By continuing, you agree to Serene Flow's Terms of Service and Privacy Policy.
               </div>
             </CardFooter>
           </Card>

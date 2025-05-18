@@ -1,4 +1,3 @@
-
 import { 
   Calendar, 
   Heart, 
@@ -9,7 +8,8 @@ import {
   Smile, 
   Compass,
   User,
-  BookOpen
+  BookOpen,
+  Activity
 } from "lucide-react";
 import { useLocation, Link } from "react-router-dom";
 import {
@@ -61,6 +61,11 @@ const menuItems = [
     icon: Clock,
   },
   {
+    title: "Wellness",
+    path: "/wellness",
+    icon: Activity,
+  },
+  {
     title: "Wellness Coach",
     path: "/coach",
     icon: MessageSquare,
@@ -102,7 +107,7 @@ export const Sidebar = () => {
           <Link to="/" className="flex items-center space-x-2">
             <Heart className="text-purple-500 h-6 w-6" />
             <span className="font-serif text-2xl font-medium bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
-              Serene-Flow
+              Serene Flow
             </span>
           </Link>
         </div>
