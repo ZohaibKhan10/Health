@@ -1,13 +1,15 @@
-# Project Title
+# Health_Tracker_App
+here's the link ---> https://health-seven-lac.vercel.app/
 
 A brief description of what this project does and who it's for.
 
-## 🚀 Features
+## 🚀 Health Journal App
 
-- Feature 1
-- Feature 2
-- Feature 3
-
+- Journal and Mood Tracking With Emojis.
+- Water Intake Tracker
+- Weight Tracking
+- Sleep Tracking
+- AI coach(Runs on personalised API key) : Gemini AI
 ## 🛠️ Installation
 
 ```bash
